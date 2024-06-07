@@ -3,7 +3,7 @@ import { NotificationDto } from './dto/notification.dto';
 import {
   IMessageCreatePayload,
   IMessageGetDetailPayload,
-} from '../message/dto/interface/message.interface';
+} from '../message/interface/message.interface';
 import { INotificationCreatePayload, INotificationGetDetailPayload } from './interface/notification.interface';
 
 @Injectable()
